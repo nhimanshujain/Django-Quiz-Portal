@@ -1,0 +1,16 @@
+ngrok http 8000
+ipconfig
+python manage.py makemigrations (Create db)
+python manage.py migrate
+python manage.py runserver
+python manage.py createsuperuser
+
+
+
+route = 'app' - locahost:3000/app 
+madel.py = Contains db schema
+admin.py = Features / powers of admin (Add question)
+
+Table
+qn Question         Answer
+1  Sample Question  Answer
